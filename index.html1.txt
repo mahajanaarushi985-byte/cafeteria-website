@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Natural Flavours Cafeteria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Aaru Corporate Cafeteria</h1>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Premium Cafeteria & Catering Solutions for Corporates</h2>
+    <p>Serving MNCs, corporate offices & large-scale events with hygiene and excellence.</p>
+    <button onclick="scrollToContact()">Request a Quote</button>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="grid">
+        <div class="card">Corporate Cafeteria Management</div>
+        <div class="card">Bulk Meal Supply</div>
+        <div class="card">Event Catering</div>
+        <div class="card">Vendor Partnerships</div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        We specialize in delivering high-quality, hygienic, and scalable food services 
+        tailored for corporate environments. Our team ensures timely delivery, 
+        consistent taste, and customizable menus to suit every client’s needs.
+    </p>
+</section>
+
+<section id="menu">
+    <h2>Sample Menu</h2>
+    <ul>
+        <li>North Indian Thali</li>
+        <li>South Indian Breakfast</li>
+        <li>Healthy Corporate Meals</li>
+        <li>Snacks & Beverages</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Company Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Your Requirement"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Natural Flavours  Cafeteria</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
